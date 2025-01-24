@@ -1,0 +1,3 @@
+# MongoDB $inc Operator Issue
+
+This repository demonstrates a common issue encountered when using the `$inc` operator in MongoDB update operations. The problem arises when attempting to increment a field that does not yet exist in a document.  This can lead to unexpected data types and incorrect results.  The solution showcases the proper way to handle such situations using the `$setOnInsert` operator or conditional updates.  See the included `bug.js` and `bugSolution.js` for detailed examples.
